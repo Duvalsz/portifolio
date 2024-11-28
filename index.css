@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: antiquewhite;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0.5px solid antiquewhite;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(241, 178, 82);
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(241, 178, 82);
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(241, 178, 82);
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.card h4 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 30px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: rgb(241, 178, 82);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: rgb(241, 178, 82);
+    font-size: 1.2em;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
